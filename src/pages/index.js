@@ -1,3 +1,14 @@
 import React from "react"
+import { Button, Container } from "@material-ui/core"
 
-export default () => <div>Hello world!</div>
+const Index = () => {
+  return (
+    <Container>
+      <Button variant="contained" color="primary">
+        Hello World!
+      </Button>
+    </Container>
+  )
+}
+
+export default Index
